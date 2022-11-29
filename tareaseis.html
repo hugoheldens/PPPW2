@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>PPW2 HFA</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>
+  alert("Hola mundo");
+
+</script>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+         PROGRAMACION WEB 2
+      </div>
+      <input type="checkbox" id="click">
+      <label for="click" class="menu-btn">
+      <i class="fas fa-bars"></i>
+      </label>
+      <ul>
+         <li><a href="index.html">Inicio</a></li>
+         <li><a href="primeraweb.html">TAREA 1</a></li>
+         <li><a href="tareacinco.html">TAREA 5</a></li>
+         <li><a href="tareaseis.html">TAREA 6</a></li>
+         <li><a href="tareasiete.html">TAREA 7</a></li>
+      </ul>
+   </nav>
+    <h1>TAREA 6</h1>
+    <h1>HOLA</h1>
+    <p>En esta actividad vimos como podemos llamar funciones desde un boton de html previamente definimos una funcion en JS y que nos mostrara una ventana de dialogo con un mensaje tambien a traves de la consola del navegador podemos realizar distintas funciones no visibles facilmente para el usuario </p>
+      <script>
+        function saludar() {
+          alert("Saludos desde el body");
+
+        }
+
+      </script>
+<br>
+<hr>
+<section>
+  <button onclick="saludar()">Dame click</button>
+  <button onclick="despedir()">Dame click x2</button>
+</section>
+<section style = "text-align: center ;">
+  <button onclick="papasfritas()">Papas fritas</button>
+  <button onclick="palomitas()">Palomitas</button>
+  <button onclick="hamburguesa()">beer</button>
+</section>
+  </body>
+  <script src="app.js">
+
+  </script>
+</html>
